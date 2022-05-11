@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         String macAddress = DeviceIdUtils.getMacAddress();
         String androidId = DeviceIdUtils.getAndroidId(mContext);
-        Log.i("macAddress",macAddress);
+        //Log.i("macAddress",macAddress);
         Log.i("androidId",androidId);
         info.append("macAddress:"+macAddress+"\n\n");
         info.append("androidId:"+androidId+"\n\n");
